@@ -8,21 +8,14 @@ public class DataTest {
         dataHoje.ano = 2023;
         String dataHojeFormatada = dataHoje.obterDataFormatada();
 
-        Data dataEsperada = new Data();
-        dataEsperada.dia = 23;
-        dataEsperada.mes = 8;
-        dataEsperada.ano = 2023;
+        Data dataEsperada = new Data(23,8,2023);
         String dataEsperadaFormatada = dataEsperada.obterDataFormatada(6);
 
-        System.out.printf("Hoje é dia %s\n", dataHojeFormatada);
-        System.out.printf("Planejo concluir o curso na data %s", dataEsperadaFormatada);
+        Data dataUnix = new Data();
+        String dataUnixFormatada = dataUnix.obterDataFormatada();
 
-       /* Implementação antiga
-       int diasDescanso = 6;
-        System.out.printf("Hoje é dia %d do mês 0%d do ano de %d\n"
-                , dataHoje.dia, dataHoje.mes, dataHoje.ano);
-        System.out.printf("Planejo concluir o curso na data %d/%d/%d",
-                dataEsperada.dia + diasDescanso, dataEsperada.mes, dataEsperada.ano);
-        */
+        System.out.printf("Hoje é dia %s\n", dataHojeFormatada);
+        System.out.printf("Planejo concluir o curso na data %s\n", dataEsperadaFormatada);
+        System.out.printf("A era Unix que começou em %s é um marco para a computação.", dataUnixFormatada);
     }
 }

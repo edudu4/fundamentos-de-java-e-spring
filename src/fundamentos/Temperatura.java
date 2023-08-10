@@ -1,11 +1,5 @@
 package fundamentos;
 
-/**
- * JAVADOC
- *
- * @author Eduardo Alves <eduardoa8142@gmail.com>
- * @since 1.0
- */
 public class Temperatura {
 
 	public static void main(String[] args) {
