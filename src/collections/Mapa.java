@@ -4,6 +4,8 @@ import java.util.AbstractMap;
 import java.util.HashMap;
 import java.util.Map;
 
+// Estudos referente a collection Map
+// E com funções para simular a ideia de obter um dado e transformar em objeto do tipo Usuario.
 public class Mapa {
     public static void main(String[] args) {
         Map<Integer, String> usuarios = new HashMap<>();
