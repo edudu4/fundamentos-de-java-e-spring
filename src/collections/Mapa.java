@@ -63,7 +63,6 @@ public class Mapa {
             }
         } else {
             System.out.printf("Usuário %s não encontrado", nome);
-
         }
         return indice;
     }
@@ -74,7 +73,6 @@ public class Mapa {
             for (Map.Entry<Integer, String> usuario : usuarios.entrySet()) {
                 if (usuario.getValue().equals(nome)) {
                     usuarioPesquisado = usuario;
-
                 }
             }
         } else {
